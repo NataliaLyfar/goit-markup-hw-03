@@ -19,10 +19,13 @@ body {
 .container {
   width: 1230px;
   padding: 0 15px 0;
+  margin: 0 auto;
   outline: 2px solid tomato;
 }
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -30,6 +33,14 @@ a {
 address {
   font-style: normal;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 /* Хедер */
 .header {
   background-color: var(--header-background-color);
@@ -98,6 +109,8 @@ address {
   background-color: var(--second-background-color);
 }
 .main-title {
+  display: inline-block;
+  margin: 200px 252px 0;
   color: var(--active-text-color);
   font-size: 44px;
   font-weight: 900;
@@ -107,8 +120,10 @@ address {
 }
 .primary-button {
   display: inline-block;
-  min-width: 130px;
-  padding: 10px 32px;
+  margin: 30px 500px 200px;
+  min-width: 144px;
+  padding: 10px 30px;
+  border: 0;
   border-radius: 4px;
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -129,6 +144,9 @@ address {
 }
 /* Особенности */
 .feature-title {
+  display: inline-block;
+  margin-top: 94px;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-size: 14px;
   font-weight: 700;
@@ -142,6 +160,9 @@ address {
 }
 /* Чем мы занимаемся + Наша команда */
 .section-title {
+  display: inline-block;
+  margin-top: 94px;
+  margin-bottom: 50px;
   color: var(--title-text-color);
   font-size: 36px;
   font-weight: 700;
@@ -150,9 +171,13 @@ address {
   text-align: center;
 }
 .team-section {
+  padding-top: 94px;
   background-color: var(--team-background-color);
 }
 .teammate-title {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-size: 16px;
   font-weight: 500;
@@ -194,6 +219,8 @@ address {
 
 /* Портфолио */
 .secondary-button {
+  display: inline-block;
+  border-radius: 4px;
   background-color: var(--secondary-button-background-color);
   color: var(--title-text-color);
   cursor: pointer;
@@ -209,6 +236,8 @@ address {
 .secondary-button:active {
   background-color: var(--accent-color);
   color: var(--active-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .project-title {
   color: var(--title-text-color);
