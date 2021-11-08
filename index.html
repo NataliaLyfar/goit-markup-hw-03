@@ -20,24 +20,30 @@
   <body>
     <!--Хедер-->
     <header class="header">
-      <div class="container">
+      <div class="container site-nav">
         <a href="./index.html" class="header-logo"
           ><span class="web-logo" lang="en">Web</span>Studio</a
         >
-        <nav class="site-nav">
-          <ul>
-            <li><a href="./index.html" class="nav-link current">Студия</a></li>
-            <li><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
-            <li><a href="" class="nav-link">Контакты</a></li>
+        <nav>
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link current">Студия</a>
+            </li>
+            <li class="nav-item">
+              <a href="./portfolio.html" class="nav-link">Портфолио</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Контакты</a>
+            </li>
           </ul>
         </nav>
-        <ul>
-          <li>
+        <ul class="header-contact-list">
+          <li class="header-contact-item">
             <a href="mailto:info@devstudio.com" class="contact-link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="header-contact-item">
             <a href="tel:+380961111111" class="contact-link"
               >+38 096 111 11 11</a
             >
@@ -54,10 +60,10 @@
         </div>
       </section>
       <!--Особенности-->
-      <section class="section">
+      <section class="feature-section">
         <!--<h2>Особенности</h2>-->
         <div class="container">
-          <ul>
+          <ul class="feature-list">
             <li>
               <h3 class="feature-title">Внимание к деталям</h3>
               <p class="feature-text">
@@ -90,10 +96,10 @@
         </div>
       </section>
       <!--Чем мы занимаемся-->
-      <section class="section">
+      <section class="review-section">
         <div class="container">
-          <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul>
+          <h2 class="review-title">Чем мы занимаемся</h2>
+          <ul class="review-list">
             <li>
               <img
                 src="./images/img1.jpg"
@@ -124,9 +130,9 @@
       <!--Наша команда-->
       <section class="team-section">
         <div class="container">
-          <h2 class="section-title">Наша команда</h2>
+          <h2 class="team-title">Наша команда</h2>
           <ul>
-            <li>
+            <li class="teammate">
               <img
                 src="./images/igor-demyanenko.jpg"
                 alt="Фото Игоря Демьяненко"
@@ -136,7 +142,7 @@
               <h3 class="teammate-title">Игорь Демьяненко</h3>
               <p class="teammate-position" lang="en">Product Designer</p>
             </li>
-            <li>
+            <li class="teammate">
               <img
                 src="./images/olga-repina.jpg"
                 alt="Фото Ольги Репиной"
@@ -146,7 +152,7 @@
               <h3 class="teammate-title">Ольга Репина</h3>
               <p class="teammate-position" lang="en">Frontend Developer</p>
             </li>
-            <li>
+            <li class="teammate">
               <img
                 src="./images/nickolay-tarasov.jpg"
                 alt="Фото Николая Тарасова"
@@ -156,7 +162,7 @@
               <h3 class="teammate-title">Николай Тарасов</h3>
               <p class="teammate-position" lang="en">Marketing</p>
             </li>
-            <li>
+            <li class="teammate">
               <img
                 src="./images/michail-ermakov.jpg"
                 alt="Фото Михаила Ермакова"
